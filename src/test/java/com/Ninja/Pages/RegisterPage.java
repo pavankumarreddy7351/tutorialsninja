@@ -5,8 +5,9 @@ import java.util.Random;
 import org.openqa.selenium.By;
 
 import com.Ninja.BaseClass.BaseClass;
+import com.Ninja.BaseClass.BaseTest;
 
-public class RegisterPage extends BaseClass{
+public class RegisterPage extends BaseTest{
 	
 	private By fn = By.xpath("//*[@id=\"input-firstname\"]");
 	private By ln = By.xpath("//*[@id=\"input-lastname\"]");

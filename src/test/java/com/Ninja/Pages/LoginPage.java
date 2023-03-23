@@ -2,15 +2,10 @@ package com.Ninja.Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.CacheLookup;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Reporter;
-
 import com.Ninja.BaseClass.BaseClass;
+import com.Ninja.BaseClass.BaseTest;
 
-public class LoginPage extends BaseClass {
+public class LoginPage extends BaseTest {
 
 	private By account = By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/span[1]");
 	private By register = By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a");
