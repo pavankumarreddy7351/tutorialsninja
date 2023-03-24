@@ -5,10 +5,11 @@
     <classes>
       <class name="com.Ninja.TestCases.TestCaseTest">
         <methods>
-          <include name="tearDown"/>
           <include name="registerPage"/>
+          <include name="negtiveRegisterPage"/>
           <include name="loginPage"/>
-          <include name="setUp"/>
+          <include name="launchApplication"/>
+          <include name="closeApplication"/>
         </methods>
       </class> <!-- com.Ninja.TestCases.TestCaseTest -->
     </classes>
