@@ -5,25 +5,20 @@ import org.openqa.selenium.WebElement;
 import com.Ninja.BaseClass.BaseClass;
 
 
-public class LoginPage extends BaseClass {
+public class NavigateToRegisterPage extends BaseClass {
 
 	 By account = By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/span[1]");
 	 By register = By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a");
 
-	public void login_Page() throws Throwable {
-//		String a=driver.getCurrentUrl();
-//		System.out.println(a);
-//	Thread.sleep(2000);
-//	driver.findElement(account).click();
-//	Thread.sleep(2000);
-//	driver.findElement(register);
-//	Thread.sleep(2000);
+	public void register_Page() throws Throwable {
+
 		WebElement acc=driver.findElement(account);
 		
 		action.moveToElement(acc).click().perform();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		WebElement reg=driver.findElement(register);
 		action.moveToElement(reg).click().perform();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
+		
 	}
 }
