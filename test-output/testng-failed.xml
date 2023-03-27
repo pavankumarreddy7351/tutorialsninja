@@ -5,14 +5,8 @@
     <classes>
       <class name="com.Ninja.TestCases.TestCaseTest">
         <methods>
-          <include name="subcriptionPage_Validation"/>
           <include name="password_Validation"/>
-          <include name="accountPage_Validation"/>
-          <include name="navigateTo_LoginPage"/>
-          <include name="email_Validation"/>
           <include name="launchApplication"/>
-          <include name="loginPage_Validatioin"/>
-          <include name="registerPage_Validation"/>
           <include name="closeApplication"/>
         </methods>
       </class> <!-- com.Ninja.TestCases.TestCaseTest -->
