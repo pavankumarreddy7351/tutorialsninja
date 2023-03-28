@@ -26,15 +26,15 @@ public class SubscriptionPage_Validation extends BaseClass{
 
 	public void validate_Yes_Subcription() {
 		
-		driver.findElement(fn).sendKeys(dataPro.getProperty("firstName"));
-		driver.findElement(ln).sendKeys(dataPro.getProperty("lastName"));
-		driver.findElement(email).sendKeys(Utilites.random_EmailID());
-		driver.findElement(phone).sendKeys(dataPro.getProperty("phoneNo"));
-		driver.findElement(pass).sendKeys(dataPro.getProperty("password"));
-		driver.findElement(cpass).sendKeys(dataPro.getProperty("password"));
-		driver.findElement(sub).click();
-		driver.findElement(check).click();
-		driver.findElement(con).click();
+		enterText(fn,dataPro.getProperty("firstName"));
+		enterText(ln,dataPro.getProperty("lastName"));
+		enterText(email,Utilites.random_EmailID());
+		enterText(phone,dataPro.getProperty("phoneNo"));
+		enterText(pass,dataPro.getProperty("password"));
+		enterText(cpass,dataPro.getProperty("password"));
+		click(sub);
+		click(check);
+		click(con);
 		
 		WebElement n=driver.findElement(news);
 		action.moveToElement(n).click().perform();
@@ -44,15 +44,15 @@ public class SubscriptionPage_Validation extends BaseClass{
 	}
 public void validate_No_Subcription() {
 		
-		driver.findElement(fn).sendKeys(dataPro.getProperty("firstName"));
-		driver.findElement(ln).sendKeys(dataPro.getProperty("lastName"));
-		driver.findElement(email).sendKeys(Utilites.random_EmailID());
-		driver.findElement(phone).sendKeys(dataPro.getProperty("phoneNo"));
-		driver.findElement(pass).sendKeys(dataPro.getProperty("password"));
-		driver.findElement(cpass).sendKeys(dataPro.getProperty("password"));
-		//driver.findElement(sub).click();
-		driver.findElement(check).click();
-		driver.findElement(con).click();
+	enterText(fn,dataPro.getProperty("firstName"));
+	enterText(ln,dataPro.getProperty("lastName"));
+	enterText(email,Utilites.random_EmailID());
+	enterText(phone,dataPro.getProperty("phoneNo"));
+	enterText(pass,dataPro.getProperty("password"));
+	enterText(cpass,dataPro.getProperty("password"));
+	//click(sub);
+	click(check);
+	click(con);
 		WebElement n=driver.findElement(news);
 		action.moveToElement(n).click().perform();
 		Assert.assertTrue(driver.findElement(no).isDisplayed());

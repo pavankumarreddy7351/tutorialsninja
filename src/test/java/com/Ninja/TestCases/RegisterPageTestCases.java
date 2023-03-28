@@ -13,6 +13,7 @@ public class RegisterPageTestCases extends PageObject {
 	}
 	@Test(priority = 2)
 	public void registerPage_FormFilling() throws Throwable {
+		navigateRegister.register_Page();
 		register.register_Page();
 		register.validate_SuccessPage();
 		logout.logOut_Page();
@@ -45,6 +46,7 @@ public class RegisterPageTestCases extends PageObject {
 	@Test(priority = 6)
 	public void loginPage_Validatioin() throws Throwable {
 		
+
 		loginPageValidation.valid_UserName_valid_Password();
 		logout.logOut_Page();
 		navigateToLoginPage.navigate_LoginPage();

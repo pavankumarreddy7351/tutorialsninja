@@ -6,6 +6,8 @@ import org.testng.Assert;
 
 import com.Ninja.BaseClass.BaseClass;
 
+import Telus.Project_Ninja_Utilites.Utilites;
+
 public class EmailPage_Validation extends BaseClass {
 	By fn = By.xpath("//*[@id=\"input-firstname\"]");
 	By ln = By.xpath("//*[@id=\"input-lastname\"]");
@@ -22,15 +24,15 @@ public class EmailPage_Validation extends BaseClass {
 	public void register_Page() throws Throwable {
 
 
-		driver.findElement(fn).sendKeys(dataPro.getProperty("firstName"));
-		driver.findElement(ln).sendKeys(dataPro.getProperty("lastName"));
-		driver.findElement(email).sendKeys(dataPro.getProperty("email"));
-		driver.findElement(phone).sendKeys(dataPro.getProperty("phoneNo"));
-		driver.findElement(pass).sendKeys(dataPro.getProperty("password"));
-		driver.findElement(cpass).sendKeys(dataPro.getProperty("password"));
-		driver.findElement(sub).click();
-		driver.findElement(check).click();
-		driver.findElement(con).click();
+		enterText(fn,dataPro.getProperty("firstName"));
+		enterText(ln,dataPro.getProperty("lastName"));
+		enterText(email,Utilites.random_EmailID());
+		enterText(phone,dataPro.getProperty("phoneNo"));
+		enterText(pass,dataPro.getProperty("password"));
+		enterText(cpass,dataPro.getProperty("password"));
+		click(sub);
+		click(check);
+		click(con);
 	}
 	public void email_Validation() {
 		WebElement eee=driver.findElement(emsg);

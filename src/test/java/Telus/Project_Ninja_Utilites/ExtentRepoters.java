@@ -35,7 +35,7 @@ public class ExtentRepoters extends BaseClass {
 		extentReport.setSystemInfo("Application URL", congfigPro.getProperty("testURL"));
 		extentReport.setSystemInfo("Browser Name", congfigPro.getProperty("browser"));
 		extentReport.setSystemInfo("Operating System",System.getProperty("os.name"));
-		extentReport.setSystemInfo("Operating System",System.getProperty("os.name"));
+		//extentReport.setSystemInfo("Operating System",System.getProperty("os.name"));
 		extentReport.setSystemInfo("Username",System.getProperty("user.name"));
 		extentReport.setSystemInfo("Java Version",System.getProperty("java.version"));
 		

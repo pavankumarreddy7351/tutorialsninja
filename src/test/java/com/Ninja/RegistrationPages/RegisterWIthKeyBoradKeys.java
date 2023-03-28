@@ -19,25 +19,25 @@ public class RegisterWIthKeyBoradKeys extends BaseClass{
 	By con=By.xpath("//*[@id=\"content\"]/form/div/div/input[2]");
 	By success=By.xpath("//*[@id=\"content\"]/p[1]");
 	public void register_WithKeyBoard() throws Throwable {
+		enterText(fn,dataPro.getProperty("firstName"));
+		action.sendKeys(Keys.TAB).build().perform();
+		enterText(ln,dataPro.getProperty("lastName"));
+		action.sendKeys(Keys.TAB).build().perform();
+		enterText(email,Utilites.random_EmailID());
+		action.sendKeys(Keys.TAB).build().perform();
+		enterText(phone,dataPro.getProperty("phoneNo"));
+		action.sendKeys(Keys.TAB).build().perform();
+		enterText(pass,dataPro.getProperty("password"));
+		action.sendKeys(Keys.TAB).build().perform();
+		enterText(cpass,dataPro.getProperty("password"));
+		action.sendKeys(Keys.TAB).build().perform();
+		click(sub);
+		action.sendKeys(Keys.TAB).build().perform();
+		click(check);
+		action.sendKeys(Keys.TAB).build().perform();
+		click(con);
 
-
-		driver.findElement(fn).sendKeys(dataPro.getProperty("firstName"));
-		action.sendKeys(Keys.TAB).build().perform();
-		driver.findElement(ln).sendKeys(dataPro.getProperty("lastName"));
-		action.sendKeys(Keys.TAB).build().perform();
-		driver.findElement(email).sendKeys(Utilites.random_EmailID());
-		action.sendKeys(Keys.TAB).build().perform();
-		driver.findElement(phone).sendKeys(dataPro.getProperty("phoneNo"));
-		action.sendKeys(Keys.TAB).build().perform();
-		driver.findElement(pass).sendKeys(dataPro.getProperty("password"));
-		action.sendKeys(Keys.TAB).build().perform();
-		driver.findElement(cpass).sendKeys(dataPro.getProperty("password"));
-		action.sendKeys(Keys.TAB).build().perform();
-		driver.findElement(sub).click();
-		action.sendKeys(Keys.TAB).build().perform();
-		driver.findElement(check).click();
-		action.sendKeys(Keys.TAB).build().perform();
-		driver.findElement(con).click();
+		
 	}
 
 }
