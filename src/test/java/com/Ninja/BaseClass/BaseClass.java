@@ -76,16 +76,28 @@ public class BaseClass {
 
 
 	}
+	public static  WebElement Xpath(By Xpath) {
+		return driver.findElement(Xpath);
+	}
 	public void enterText(By Xpath,String text) {
 		driver.findElement(Xpath).click();
 		driver.findElement(Xpath).clear();
 		driver.findElement(Xpath).sendKeys(text);
 	}
-	public void getText(By Xpath,String text) {
-		driver.findElement(Xpath).getText();
+	public static String getText(By Xpath) {
+		return driver.findElement(Xpath).getText();
 	}
-	public void click(By Xpath) {
+	public static void click(By Xpath) {
 		driver.findElement(Xpath).click();
+	}
+	public static void clear(By Xpath) {
+		driver.findElement(Xpath).clear();
+	}
+	public static void getAttribute(By Xpath,String getText) {
+		driver.findElement(Xpath).getAttribute(getText);
+	}
+	public String getURL() {
+		return driver.getCurrentUrl();
 	}
 //	public void enterTextPFM(WebElement element,String text) {
 //		try {

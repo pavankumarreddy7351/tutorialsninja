@@ -21,7 +21,7 @@ public class Password_ValidationPage extends BaseClass{
 	By emsg=By.xpath("//*[@id=\"content\"]/form/fieldset[2]/div[2]/div/div");
 	By cmg=By.xpath("//div[@class='text-danger']");
 
-	public void register_Page() throws Throwable {
+	public void validation_Invalidpassword() throws Throwable {
 
 
 		driver.findElement(fn).sendKeys(dataPro.getProperty("firstName"));
@@ -39,7 +39,7 @@ public class Password_ValidationPage extends BaseClass{
 	public void password_Validation() {
 		WebElement pass=driver.findElement(emsg);
 		String aerr=pass.getText();
-		Assert.assertEquals(aerr, dataPro.getProperty("epassmsg"), "Password error message not showing correct");
+		Assert.assertEquals(aerr, dataPro.getProperty("epasswordmsg"), "Password error message not showing correct");
 	}
 	public void register_WithOut_ConfirmPassowrd() throws Throwable {
 

@@ -1,11 +1,11 @@
-package com.Ninja.ObjectManger;
+package ObjectManger;
 
 import com.Ninja.BaseClass.BaseClass;
+import com.Ninja.LoginPages.LoginPage_Validation;
+import com.Ninja.LoginPages.LoguOutPage;
+import com.Ninja.LoginPages.NavigateToLoginPage;
 import com.Ninja.RegistrationPages.AccountDropDown;
 import com.Ninja.RegistrationPages.EmailPage_Validation;
-import com.Ninja.RegistrationPages.LoginPage_Validation;
-import com.Ninja.RegistrationPages.LoguOutPage;
-import com.Ninja.RegistrationPages.NavigateToLoginPage;
 import com.Ninja.RegistrationPages.NavigateToRegisterPage;
 import com.Ninja.RegistrationPages.Password_ValidationPage;
 import com.Ninja.RegistrationPages.RegisterFromFilling;
