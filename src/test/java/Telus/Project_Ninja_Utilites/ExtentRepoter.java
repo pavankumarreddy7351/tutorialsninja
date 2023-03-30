@@ -10,7 +10,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class ExtentRepoters extends BaseClass {
+public class ExtentRepoter extends BaseClass{
 	public static ExtentReports genrateExtentReport()   {
 		ExtentReports extentReport =new ExtentReports();
 		File extentReportFile=new File(System.getProperty("user.dir")+"\\test-output\\ExtentReports\\extentReport.html");
@@ -21,7 +21,7 @@ public class ExtentRepoters extends BaseClass {
 		html.config().setTimeStampFormat("dd/MM/yyyy hh:mm:ss");
 		extentReport.attachReporter(html);
 		Properties congfigPro=new Properties();
-		File configPropFile=new File (System.getProperty("user.dir")+".//src/main/java/com/Ninja/Config/config.properties");
+		File configPropFile=new File (System.getProperty("user.dir")+".//src/test/java/com/Ninja/Config/config.properties");
 		
 		
 		try {

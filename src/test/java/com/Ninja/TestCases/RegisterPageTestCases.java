@@ -5,12 +5,14 @@ import org.testng.annotations.Test;
 import com.Ninja.RegistrationPages.NavigateToRegisterPage;
 
 import ObjectManger.PageObject;
+import Telus.Project_Ninja_Utilites.Log;
 
 public class RegisterPageTestCases extends PageObject {
 
 	@Test(priority = 1)
 	public void navigate_To_RegisterPage() throws Throwable   {
 		navigateRegister.register_Page();
+		Log.info("navigate_To_RegisterPage");
 	}
 	@Test(priority = 2)
 	public void registerPage_FormFilling() throws Throwable {

@@ -16,7 +16,7 @@ public class LoginPage_Validation extends BaseClass {
 	By epass=By.xpath("//div[@class='alert alert-danger alert-dismissible']");
 	By login=By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input");
 	By forgetpass=By.linkText("Forgotten Password");
-	By hourerrmsg=By.xpath("/html/body/div[2]/div[1]/text()");
+	By hourerrmsg=By.xpath("//*[contains(text(),' Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.')] ");
 	By changePassword=By.xpath("//*[@id=\"content\"]/ul[1]/li[2]/a");
 	By newPassword=By.xpath("//*[@id=\"input-password\"]");
 	By newConfirmPassword=By.xpath("//*[@id=\"input-confirm\"]");

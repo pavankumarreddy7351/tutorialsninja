@@ -6,7 +6,6 @@ import java.io.IOException;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -16,11 +15,11 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-import Telus.Project_Ninja_Utilites.ExtentRepoters;
+import Telus.Project_Ninja_Utilites.ExtentRepoter;
 
 
 
-public class Listeners extends ExtentRepoters  implements ITestListener{
+public class Listeners extends ExtentRepoter  implements ITestListener{
 	ExtentReports extentReport;
 	ExtentTest extentTest;
 	@Override
@@ -28,15 +27,7 @@ public class Listeners extends ExtentRepoters  implements ITestListener{
 		
 		String testName=result.getName();
 		 extentTest = extentReport.createTest(testName);
-		extentTest.log(Status.INFO, testName+" "+"onTestStart");
 		
-		
-		try {
-			driver = (WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
-		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		File scrScreenshot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String destinationScreenshotPath =System.getProperty("user.dir")+"\\Screenshots\\"+testName+".png";
 		try {
@@ -56,15 +47,7 @@ public class Listeners extends ExtentRepoters  implements ITestListener{
 		 
 		String testName=result.getName();
 		 extentTest = extentReport.createTest(testName);
-		extentTest.log(Status.INFO, testName+" "+"onTestStart");
 		
-		
-		try {
-			driver = (WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
-		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		File scrScreenshot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String destinationScreenshotPath =System.getProperty("user.dir")+"\\Screenshots\\"+testName+".png";
 		try {
@@ -85,21 +68,13 @@ public class Listeners extends ExtentRepoters  implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		String testName=result.getName();
 		 extentTest = extentReport.createTest(testName);
-		extentTest.log(Status.INFO, testName+" "+"onTestStart");
 		
-		
-		try {
-			driver = (WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
-		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		File scrScreenshot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String destinationScreenshotPath =System.getProperty("user.dir")+"\\Screenshots\\"+testName+".png";
 		try {
 			FileHandler.copy(scrScreenshot, new File(destinationScreenshotPath));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		extentTest.addScreenCaptureFromPath(destinationScreenshotPath);
@@ -143,7 +118,7 @@ public class Listeners extends ExtentRepoters  implements ITestListener{
 
 	@Override
 	public void onStart(ITestContext context) {
-	extentReport =ExtentRepoters.genrateExtentReport();
+	extentReport =ExtentRepoter.genrateExtentReport();
 		ITestListener.super.onStart(context);
 	}
 

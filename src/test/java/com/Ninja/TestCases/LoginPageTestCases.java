@@ -31,11 +31,11 @@ public class LoginPageTestCases extends  PageObject {
 ////		navigateToLoginPage.navigate_LoginPage();
 ////		loginPageValidation.TC_LF_009();
 //		navigateToLoginPage.navigate_LoginPage();
-//		loginPageValidation.TC_LF_012();
+		loginPageValidation.TC_LF_012();
 //		loginPageValidation.TC_LF_013();
 //		loginPageValidation.TC_LF_014();
 		///loginPageValidation.TC_LF_016();
-		loginPageValidation.TC_LF_017();
+//		loginPageValidation.TC_LF_017();
 	}
 	@Test(priority = 3)
 	public void accountPage_Validation() throws Throwable {
