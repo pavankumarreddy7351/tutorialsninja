@@ -2,57 +2,57 @@
 <testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-30T17:35:26 IST" name="Default suite" finished-at="2023-03-30T17:36:36 IST" duration-ms="69963">
+  <suite started-at="2023-04-03T10:23:35 IST" name="Suite" finished-at="2023-04-03T10:24:52 IST" duration-ms="77086">
     <groups>
     </groups>
-    <test started-at="2023-03-30T17:35:26 IST" name="Default test" finished-at="2023-03-30T17:36:36 IST" duration-ms="69963">
+    <test started-at="2023-04-03T10:23:35 IST" name="Test" finished-at="2023-04-03T10:24:52 IST" duration-ms="77086">
       <class name="com.Ninja.TestCases.RegisterPageTestCases">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.Ninja.TestCases.RegisterPageTestCases@5e7cd6cc]" started-at="2023-03-30T17:35:20 IST" name="launchApplication" finished-at="2023-03-30T17:35:26 IST" duration-ms="5668" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.Ninja.TestCases.RegisterPageTestCases@5fd4f8f5]" started-at="2023-04-03T10:23:27 IST" name="launchApplication" finished-at="2023-04-03T10:23:35 IST" duration-ms="7561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="navigate_To_RegisterPage()[pri:1, instance:com.Ninja.TestCases.RegisterPageTestCases@5e7cd6cc]" started-at="2023-03-30T17:35:26 IST" name="navigate_To_RegisterPage" finished-at="2023-03-30T17:35:29 IST" duration-ms="3389" status="PASS">
+        <test-method signature="navigate_To_RegisterPage()[pri:1, instance:com.Ninja.TestCases.RegisterPageTestCases@5fd4f8f5]" started-at="2023-04-03T10:23:35 IST" name="navigate_To_RegisterPage" finished-at="2023-04-03T10:23:39 IST" duration-ms="3938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate_To_RegisterPage -->
-        <test-method signature="registerPage_FormFilling()[pri:2, instance:com.Ninja.TestCases.RegisterPageTestCases@5e7cd6cc]" started-at="2023-03-30T17:35:29 IST" name="registerPage_FormFilling" finished-at="2023-03-30T17:35:38 IST" duration-ms="8844" status="PASS">
+        <test-method signature="registerPage_FormFilling()[pri:2, instance:com.Ninja.TestCases.RegisterPageTestCases@5fd4f8f5]" started-at="2023-04-03T10:23:40 IST" name="registerPage_FormFilling" finished-at="2023-04-03T10:23:49 IST" duration-ms="9892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerPage_FormFilling -->
-        <test-method signature="registerPage_Validation()[pri:3, instance:com.Ninja.TestCases.RegisterPageTestCases@5e7cd6cc]" started-at="2023-03-30T17:35:38 IST" name="registerPage_Validation" finished-at="2023-03-30T17:35:43 IST" duration-ms="5121" status="PASS">
+        <test-method signature="registerPage_Validation()[pri:3, instance:com.Ninja.TestCases.RegisterPageTestCases@5fd4f8f5]" started-at="2023-04-03T10:23:50 IST" name="registerPage_Validation" finished-at="2023-04-03T10:23:55 IST" duration-ms="5591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerPage_Validation -->
-        <test-method signature="password_Validation()[pri:4, instance:com.Ninja.TestCases.RegisterPageTestCases@5e7cd6cc]" started-at="2023-03-30T17:35:43 IST" name="password_Validation" finished-at="2023-03-30T17:35:51 IST" duration-ms="8370" status="PASS">
+        <test-method signature="password_Validation()[pri:4, instance:com.Ninja.TestCases.RegisterPageTestCases@5fd4f8f5]" started-at="2023-04-03T10:23:55 IST" name="password_Validation" finished-at="2023-04-03T10:24:03 IST" duration-ms="7961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- password_Validation -->
-        <test-method signature="subcriptionPage_Validation()[pri:4, instance:com.Ninja.TestCases.RegisterPageTestCases@5e7cd6cc]" started-at="2023-03-30T17:35:51 IST" name="subcriptionPage_Validation" finished-at="2023-03-30T17:36:09 IST" duration-ms="17690" status="PASS">
+        <test-method signature="subcriptionPage_Validation()[pri:4, instance:com.Ninja.TestCases.RegisterPageTestCases@5fd4f8f5]" started-at="2023-04-03T10:24:04 IST" name="subcriptionPage_Validation" finished-at="2023-04-03T10:24:24 IST" duration-ms="20630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subcriptionPage_Validation -->
-        <test-method signature="email_Validation()[pri:5, instance:com.Ninja.TestCases.RegisterPageTestCases@5e7cd6cc]" started-at="2023-03-30T17:36:09 IST" name="email_Validation" finished-at="2023-03-30T17:36:23 IST" duration-ms="13893" status="FAIL">
+        <test-method signature="email_Validation()[pri:5, instance:com.Ninja.TestCases.RegisterPageTestCases@5fd4f8f5]" started-at="2023-04-03T10:24:24 IST" name="email_Validation" finished-at="2023-04-03T10:24:39 IST" duration-ms="14605" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-danger alert-dismissible']"}
-  (Session info: chrome=111.0.5563.111)
+  (Session info: chrome=111.0.5563.147)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BA-000311899', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PUCHHA~1.PAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 902962ec9a9c4df5cb37ecfc2f65059f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PUCHHA~1.PAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1437be84ed2f300862a84fa2d5d3539e
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger alert-dismissible']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-danger alert-dismissible']"}
-  (Session info: chrome=111.0.5563.111)
+  (Session info: chrome=111.0.5563.147)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BA-000311899', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PUCHHA~1.PAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 902962ec9a9c4df5cb37ecfc2f65059f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PUCHHA~1.PAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1437be84ed2f300862a84fa2d5d3539e
 *** Element info: {Using=xpath, value=//div[@class='alert alert-danger alert-dismissible']}
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -92,37 +92,35 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
 at org.testng.TestNG.runSuites(TestNG.java:1099)
 at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at com.Ninja.TestRunner.TestRunner.main(TestRunner.java:15)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- email_Validation -->
-        <test-method signature="keyBord_Validation()[pri:5, instance:com.Ninja.TestCases.RegisterPageTestCases@5e7cd6cc]" started-at="2023-03-30T17:36:23 IST" name="keyBord_Validation" finished-at="2023-03-30T17:36:36 IST" duration-ms="12472" status="FAIL">
+        <test-method signature="keyBord_Validation()[pri:5, instance:com.Ninja.TestCases.RegisterPageTestCases@5fd4f8f5]" started-at="2023-04-03T10:24:39 IST" name="keyBord_Validation" finished-at="2023-04-03T10:24:52 IST" duration-ms="12721" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="input-firstname"]"}
-  (Session info: chrome=111.0.5563.111)
+  (Session info: chrome=111.0.5563.147)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BA-000311899', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PUCHHA~1.PAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 902962ec9a9c4df5cb37ecfc2f65059f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PUCHHA~1.PAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1437be84ed2f300862a84fa2d5d3539e
 *** Element info: {Using=xpath, value=//*[@id="input-firstname"]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="input-firstname"]"}
-  (Session info: chrome=111.0.5563.111)
+  (Session info: chrome=111.0.5563.147)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BA-000311899', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PUCHHA~1.PAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 902962ec9a9c4df5cb37ecfc2f65059f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PUCHHA~1.PAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1437be84ed2f300862a84fa2d5d3539e
 *** Element info: {Using=xpath, value=//*[@id="input-firstname"]}
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -163,20 +161,18 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
 at org.testng.TestNG.runSuites(TestNG.java:1099)
 at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at com.Ninja.TestRunner.TestRunner.main(TestRunner.java:15)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- keyBord_Validation -->
-        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.Ninja.TestCases.RegisterPageTestCases@5e7cd6cc]" started-at="2023-03-30T17:36:36 IST" name="closeApplication" finished-at="2023-03-30T17:36:36 IST" duration-ms="435" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.Ninja.TestCases.RegisterPageTestCases@5fd4f8f5]" started-at="2023-04-03T10:24:55 IST" name="closeApplication" finished-at="2023-04-03T10:24:56 IST" duration-ms="856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
       </class> <!-- com.Ninja.TestCases.RegisterPageTestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

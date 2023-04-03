@@ -1,3 +1,39 @@
 2023-03-30 17:35:29 INFO  Log:22 - navigate_To_RegisterPage
 2023-03-30 17:35:32 INFO  Log:11 - =====================================register_Page TEST START=========================================
 2023-03-30 17:35:32 INFO  Log:22 - First Name Passed
+2023-03-31 09:08:47 INFO  Log:22 - Navigation to LogoutPage
+2023-03-31 09:22:57 INFO  Log:22 - TC_LG_003 Close Application without logut
+2023-03-31 09:23:04 INFO  Log:22 - Application Closed
+2023-03-31 09:23:06 INFO  Log:22 - Application Launched 
+2023-03-31 09:26:32 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-03-31 09:28:26 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-03-31 09:29:40 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-03-31 09:32:46 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-03-31 09:39:38 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-03-31 10:20:51 INFO  Log:22 - navigate_To_RegisterPage
+2023-03-31 10:20:54 INFO  Log:11 - =====================================register_Page TEST START=========================================
+2023-03-31 10:20:54 INFO  Log:22 - First Name Passed
+2023-03-31 12:13:20 INFO  Log:22 - navigate_To_RegisterPage
+2023-03-31 12:13:23 INFO  Log:11 - =====================================register_Page TEST START=========================================
+2023-03-31 12:13:23 INFO  Log:22 - First Name Passed
+2023-03-31 17:15:01 INFO  Log:11 - =====================================register_Page TEST START=========================================
+2023-03-31 17:15:01 INFO  Log:22 - First Name Passed
+2023-03-31 17:16:43 INFO  Log:11 - =====================================register_Page TEST START=========================================
+2023-03-31 17:16:43 INFO  Log:22 - First Name Passed
+2023-03-31 17:26:49 INFO  Log:22 - navigate_To_RegisterPage
+2023-03-31 17:26:51 INFO  Log:11 - =====================================register_Page TEST START=========================================
+2023-03-31 17:26:51 INFO  Log:22 - First Name Passed
+2023-04-03 08:13:10 INFO  Log:22 - navigate_To_RegisterPage
+2023-04-03 08:13:39 INFO  Log:22 - navigate_To_RegisterPage
+2023-04-03 08:13:42 INFO  Log:11 - =====================================register_Page TEST START=========================================
+2023-04-03 08:13:42 INFO  Log:22 - First Name Passed
+2023-04-03 08:34:10 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-04-03 08:37:44 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-04-03 08:39:09 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-04-03 08:40:52 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-04-03 08:44:15 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-04-03 08:45:27 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-04-03 08:47:15 INFO  Log:22 -  TC_LG_001 and TC_LG_002  Navigation to LogoutPage
+2023-04-03 10:23:39 INFO  Log:22 - navigate_To_RegisterPage
+2023-04-03 10:23:42 INFO  Log:11 - =====================================register_Page TEST START=========================================
+2023-04-03 10:23:43 INFO  Log:22 - First Name Passed

@@ -11,19 +11,19 @@ import Telus.Project_Ninja_Utilites.Log;
 
 public class LoginPage_Validation extends BaseClass {
 
-	By userName =By.xpath("//input[@id='input-email']");
-	By password=By.xpath("//input[@id='input-password']");
-	By epass=By.xpath("//div[@class='alert alert-danger alert-dismissible']");
-	By login=By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input");
-	By forgetpass=By.linkText("Forgotten Password");
-	By hourerrmsg=By.xpath("//*[contains(text(),' Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.')] ");
-	By changePassword=By.xpath("//*[@id=\"content\"]/ul[1]/li[2]/a");
-	By newPassword=By.xpath("//*[@id=\"input-password\"]");
-	By newConfirmPassword=By.xpath("//*[@id=\"input-confirm\"]");
-	By continueButton=By.xpath("//*[@id=\"content\"]/form/div/div[2]/input");
+	static By userName =By.xpath("//input[@id='input-email']");
+	static By password=By.xpath("//input[@id='input-password']");
+	static By epass=By.xpath("//div[@class='alert alert-danger alert-dismissible']");
+	static By login=By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input");
+	static By forgetpass=By.linkText("Forgotten Password");
+	static By hourerrmsg=By.xpath("//*[contains(text(),' Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.')] ");
+	static By changePassword=By.xpath("//*[@id=\"content\"]/ul[1]/li[2]/a");
+	static By newPassword=By.xpath("//*[@id=\"input-password\"]");
+	static By newConfirmPassword=By.xpath("//*[@id=\"input-confirm\"]");
+	static By continueButton=By.xpath("//*[@id=\"content\"]/form/div/div[2]/input");
 
 
-	public void valid_UserName_valid_Password() throws Throwable {
+	public static void valid_UserName_valid_Password() throws Throwable {
 
 
 		driver.findElement(userName).sendKeys(dataPro.getProperty("userName"));

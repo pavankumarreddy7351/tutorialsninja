@@ -13,14 +13,14 @@ public class NavigateToLoginPage extends BaseClass {
 	 static By password=By.xpath("//input[@id='input-password']");
 
 		public static void navigate_LoginPage() throws Throwable {
-			 WebElement acc=driver.findElement(account);
+		WebElement acc=driver.findElement(account);
 		action.moveToElement(acc).click().perform();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		WebElement log=driver.findElement(login);
+		
 		action.moveToElement(log).click().perform();
-		Thread.sleep(3000);
-		Xpath(userName);
-		Xpath(password);
+		Thread.sleep(1000);
+		
 		Assert.assertTrue(Xpath(userName).isDisplayed());
 		Assert.assertTrue(Xpath(password).isDisplayed());
 }
