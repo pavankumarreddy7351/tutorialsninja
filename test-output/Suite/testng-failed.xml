@@ -9,8 +9,13 @@
       <class name="com.Ninja.TestCases.RegisterPageTestCases">
         <methods>
           <include name="keyBord_Validation"/>
+          <include name="subcriptionPage_Validation"/>
+          <include name="navigate_To_RegisterPage"/>
+          <include name="password_Validation"/>
           <include name="launchApplication"/>
+          <include name="registerPage_FormFilling"/>
           <include name="email_Validation"/>
+          <include name="registerPage_Validation"/>
           <include name="closeApplication"/>
         </methods>
       </class> <!-- com.Ninja.TestCases.RegisterPageTestCases -->

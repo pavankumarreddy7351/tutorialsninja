@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 <listeners>
-<listener class-name="com.Ninja.Listeners.Listeners"></listener>
+<listener class-name="com.Luma.Listeners.Listeners"></listener>
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.Ninja.TestCases.RegisterPageTestCases"/>
+      <class name="com.Luma.TestCases.RegisterPageTestCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
